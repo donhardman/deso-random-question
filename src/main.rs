@@ -19,7 +19,7 @@ fn main() {
         address,
         key_hex: seed_hex::from_mnemonic(mnemonic).expect("Error while creating seed hex from mnemonic"),
     };
-    
+
     loop {
         // First load questions from the file
         println!("Loading questions from file {}", QUESTION_FILE);
